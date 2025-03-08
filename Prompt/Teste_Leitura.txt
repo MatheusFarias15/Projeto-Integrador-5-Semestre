@@ -1,0 +1,209 @@
+Produto 1: Carburador  
+Classificado: Apto para venda  
+
+Produto 2: Bateria de carro  
+Classificado: Não apto para venda  
+
+Produto 3: Motor elétrico  
+Classificado: Apto para venda  
+
+Produto 4: Parafuso sextavado  
+Classificado: Não apto para venda  
+
+Produto 5: Placa-mãe  
+Classificado: Não apto para venda  
+
+Produto 6: Teclado mecânico  
+Classificado: Apto para venda  
+
+Produto 7: Monitor LED 24"  
+Classificado: Não apto para venda  
+
+Produto 8: Caixa de câmbio  
+Classificado: Não apto para venda  
+
+Produto 9: Pneu aro 17  
+Classificado: Apto para venda  
+
+Produto 10: Amortecedor traseiro  
+Classificado: Não apto para venda  
+
+Produto 11: Disco de freio  
+Classificado: Não apto para venda  
+
+Produto 12: Filtro de óleo  
+Classificado: Apto para venda  
+
+Produto 13: Memória RAM 16GB  
+Classificado: Não apto para venda  
+
+Produto 14: HD 1TB  
+Classificado: Não apto para venda  
+
+Produto 15: SSD NVMe 512GB  
+Classificado: Apto para venda  
+
+Produto 16: Processador Intel i7  
+Classificado: Não apto para venda  
+
+Produto 17: Placa de vídeo RTX 3060  
+Classificado: Não apto para venda  
+
+Produto 18: Fonte 750W  
+Classificado: Apto para venda  
+
+Produto 19: Caixa de som Bluetooth  
+Classificado: Não apto para venda  
+
+Produto 20: Mouse sem fio  
+Classificado: Apto para venda  
+
+Produto 21: Impressora a laser  
+Classificado: Não apto para venda  
+
+Produto 22: Scanner de documentos  
+Classificado: Não apto para venda  
+
+Produto 23: Headset gamer  
+Classificado: Não apto para venda  
+
+Produto 24: Smartwatch  
+Classificado: Apto para venda  
+
+Produto 25: Câmera de segurança Wi-Fi  
+Classificado: Não apto para venda  
+
+Produto 26: Cabo HDMI 2m  
+Classificado: Apto para venda  
+
+Produto 27: Controle de videogame  
+Classificado: Não apto para venda  
+
+Produto 28: Ventilador de mesa  
+Classificado: Não apto para venda  
+
+Produto 29: Notebook i5 8GB RAM  
+Classificado: Apto para venda  
+
+Produto 30: Smartphone Android  
+Classificado: Não apto para venda  
+
+Produto 31: Carregador de celular  
+Classificado: Não apto para venda  
+
+Produto 32: Power Bank 10000mAh  
+Classificado: Não apto para venda  
+
+Produto 33: Lâmpada LED inteligente  
+Classificado: Apto para venda  
+
+Produto 34: Teclado sem fio  
+Classificado: Não apto para venda  
+
+Produto 35: Relógio de pulso  
+Classificado: Não apto para venda  
+
+Produto 36: Mochila antifurto  
+Classificado: Não apto para venda  
+
+Produto 37: Cadeira gamer  
+Classificado: Apto para venda  
+
+Produto 38: Smart TV 50"  
+Classificado: Não apto para venda  
+
+Produto 39: Fogão 4 bocas  
+Classificado: Não apto para venda  
+
+Produto 40: Geladeira frost free  
+Classificado: Não apto para venda  
+
+Produto 41: Liquidificador  
+Classificado: Não apto para venda  
+
+Produto 42: Air fryer  
+Classificado: Apto para venda  
+
+Produto 43: Aspirador de pó  
+Classificado: Não apto para venda  
+
+Produto 44: Ferro de passar  
+Classificado: Não apto para venda  
+
+Produto 45: Máquina de lavar  
+Classificado: Não apto para venda  
+
+Produto 46: Chuveiro elétrico  
+Classificado: Apto para venda  
+
+Produto 47: Secador de cabelo  
+Classificado: Não apto para venda  
+
+Produto 48: Caixa térmica  
+Classificado: Não apto para venda  
+
+Produto 49: Balança digital  
+Classificado: Não apto para venda  
+
+Produto 50: Calculadora científica  
+Classificado: Apto para venda  
+
+Produto 51: Termômetro digital  
+Classificado: Não apto para venda  
+
+Produto 52: Oxímetro de pulso  
+Classificado: Não apto para venda  
+
+Produto 53: Aparelho de pressão  
+Classificado: Não apto para venda  
+
+Produto 54: Detector de fumaça  
+Classificado: Não apto para venda  
+
+Produto 55: Máquina de cartão  
+Classificado: Apto para venda  
+
+Produto 56: Caixa registradora  
+Classificado: Não apto para venda  
+
+Produto 57: Câmera DSLR  
+Classificado: Não apto para venda  
+
+Produto 58: Tripé profissional  
+Classificado: Não apto para venda  
+
+Produto 59: Estabilizador de imagem  
+Classificado: Não apto para venda  
+
+Produto 60: Projetor de imagens  
+Classificado: Apto para venda  
+
+Produto 61: Drone  
+Classificado: Não apto para venda  
+
+Produto 62: Fone de ouvido Bluetooth  
+Classificado: Não apto para venda  
+
+Produto 63: Smart speaker  
+Classificado: Não apto para venda  
+
+Produto 64: Caixa de som portátil  
+Classificado: Não apto para venda  
+
+Produto 65: Hub USB  
+Classificado: Não apto para venda  
+
+Produto 66: Adaptador de tomada  
+Classificado: Não apto para venda  
+
+Produto 67: Roteador Wi-Fi  
+Classificado: Apto para venda  
+
+Produto 68: Switch de rede  
+Classificado: Não apto para venda  
+
+Produto 69: Placa de rede  
+Classificado: Não apto para venda  
+
+Produto 70: Nobreak  
+Classificado: Não apto para venda  
