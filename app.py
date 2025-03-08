@@ -4,7 +4,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import os
 
-with open("Prompt\Analisador.txt", "r", encoding="utf-8") as file:
+with open("Analisador.txt", "r", encoding="utf-8") as file:
     instrucoes = file.read()
 
 load_dotenv()

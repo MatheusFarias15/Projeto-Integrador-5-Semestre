@@ -1,0 +1,5 @@
+Apto para venda: 16
+Não apto para venda: 54
+Total de produtos: 70
+
+Todos os produtos foram classificados corretamente?  (Sim/Não)
