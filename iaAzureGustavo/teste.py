@@ -6,7 +6,7 @@ import time
 # Função para capturar imagens da câmera
 def capture_images():
     print("Iniciando captura de imagens...")  # Mensagem de depuração
-    cap = cv2.VideoCapture(0)  # Abre a câmera (0 indica a câmera padrão)
+    cap = cv2.VideoCapture(0)  # Abre a câmera (0 indica a câmera padrão) teste de commit 
     if not cap.isOpened():
         print("Erro ao abrir a câmera")
         return
