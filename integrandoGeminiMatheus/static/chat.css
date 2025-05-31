@@ -1,213 +1,114 @@
-:root {
-    --cor-da-fonte: #ffffff; 
-    --cor-de-destaque: #00ffff;
-    --cor-placeholder: #2e2e2e;
-    --cor-do-card: 25px 20px 50px rgb(27, 4, 161),
-    -25px -25px 50px rgb(27, 4, 161);
-    --cor-de-fundo-card: #212121;
-}
-
-* {
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f1f1f1;
-}
-
-@keyframes glowAnimation {
-    0% { box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); }
-    50% { box-shadow: 0 0 20px rgba(0, 0, 255, 0.8); }
-    100% { box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); }
-}
-
-.chat_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25em;
-    padding: 2rem;
-    margin: 0 auto;
-    border-radius: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 15px rgba(0, 0, 255, 0.5);
-    animation: glowAnimation 2s infinite alternate;
-    gap: 1.5em;
-}
-
-.Chat_logo {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-}
-
-.card-container {
-    background-color: var(--cor-de-fundo-card);
-    border-radius: 10px;
-    padding: 15px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 280px;
-    box-shadow: var(--cor-do-card);
-}
-
-.card-header {
-    display: flex;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-.card-header .img-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 20px;
-    background-color: #333;
-}
-
-.card-header .text-chat {
-    color: var(--cor-da-fonte);
-    margin: 0;
-    font-size: 20px;
-}
-
-.card-body {
-    flex: 1;
-    overflow-y: auto;
-}
-
-.messages-container {
-    padding: 15px;
-}
-
-.message-box {
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-}
-
-.message-box.left {
-    background-color: #f1f1f1;
-    color: black;
-    font-size: 13px;
-    left: 0;
-}
-
-.message-box.right {
-    background-color: #333;
-    color: #fff;
-    font-size: 13px;
-    right: 0;
-}
-
-.message-input {
-    padding: 5px;
-    border-top: 1px solid #ccc;
-}
-
-.message-input .message-send {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    resize: none;
-}
-
-.message-input .button-send {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-    border-radius: 10px;
-    font-size: 13px;
-}
-
-.message-input .button-send:hover {
-    background-color: #f1f1f1;
+    background-color: #f5f5f5;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.entrada_container {
-    position: relative;
+/* Cabeçalho */
+.cabecalho {
+    background-color: #007BFF;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
 }
 
+.cabecalho__acoes {
+    display: flex;
+    gap: 10px;
+}
+
+/* Main e seção de chat */
+.main {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ajuste da logo do chatbot */
+.Chat_logo img {
+    width: 150px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contêiner de entrada */
 .entrada__container {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--cor-placeholder);
-    padding: 10px;
-    border-radius: 1rem;
-    position: relative;
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 10px; /* Espaço entre os botões e o campo de entrada */
+    justify-content: center;
+    width: 100%;
 }
 
 .entrada__input-container {
-    position: relative;
-    width: 100%;
+    flex: 1; /* Faz o campo de entrada ocupar o espaço disponível */
+    max-width: 600px;
 }
 
 .entrada__input {
-    width: 100%;
+    width: 100%; /* Garante que o campo preencha o espaço */
     padding: 10px;
-    border: 2px solid cyan;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     font-size: 16px;
-    background: transparent;
-    color: white;
-    outline: none;
 }
 
-.entrada__label {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: gray;
-    transition: all 0.3s ease;
-    pointer-events: none;
+/* Ajuste dos botões */
+#botao-enviar,
+#mais_arquivo {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
 }
 
-.entrada__input::placeholder {
-    color: transparent;
+#botao-enviar img {
+    width: 20px;
+    height: 20px;
+    content: url('https://cdn-icons-png.flaticon.com/512/271/271228.png'); /* Ícone de seta */
 }
 
-.user-label {
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--cor-da-fonte);
-    pointer-events: none;
-    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-size: 1rem;
+#mais_arquivo::before {
+    content: '+';
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.entrada__input:focus,
-.entrada__input:not(:placeholder-shown) {
-    outline: none;
-    border: 1.5px solid var(--cor-de-destaque);
-}
+/* Responsividade */
+@media (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
 
-.entrada__input:focus + .entrada__label,
-.entrada__input:not(:placeholder-shown) + .entrada__label {
-    top: -10px;
-    left: 8px;
-    font-size: 12px;
-    background: #212121;
-    padding: 2px 5px;
-    border-radius: 3px;
-    color: var(--cor-de-destaque);
+    .entrada__container {
+        flex-direction: column;
+    }
+
+    .entrada__input-container {
+        width: 100%;
+    }
 }

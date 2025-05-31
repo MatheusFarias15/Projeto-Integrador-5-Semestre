@@ -7,35 +7,37 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
 </head>
 <body>
-   <header class="cabecalho container">
-       <div class="cabecalho__acoes"></div>
-   </header> 
+    <header class="cabecalho container">
+        <div class="cabecalho__acoes"></div>
+    </header>
 
-   <main class="main">
-       <section class="chat_container" id="chat">
-           <div class="Chat_logo">
-               <img src="{{ url_for('static', filename='img/logo-chatbot.png') }}" alt="Logo Chatbot">
-           </div>
+    <main class="main">
+        <section class="chat_container" id="chat">
+            <div class="Chat_logo">
+                <img src="{{ url_for('static', filename='img/logo-chatbot.png') }}" alt="Logo Chatbot">
+            </div>
 
-           <section class="entrada_container">
-               <div class="entrada__container">
-                   <button id="mais_arquivo" aria-label="Botão de mais opções">
-                       <i class="icone icone--mais-opcoes"></i>
-                   </button>
+            <!-- Adicione este elemento para exibir a imagem -->
+            <img id="imagem-enviada" src="" alt="Imagem Enviada" style="display: none;">
 
-                   <div class="entrada__input-container">
-                    <input type="text" id="input" class="entrada__input" placeholder=" " />
-                    <label for="entrada" class="entrada__label">Lyra IA</label>
+            <section class="entrada_container">
+                <div class="entrada__container">
+                    <button id="mais_arquivo" aria-label="Botão de mais opções">
+                        <i class="icone icone--mais-opcoes"></i>
+                    </button>
+                    <div class="entrada__input-container">
+                        <label for="entrada" class="entrada__label">Lyra IA</label>
+                        <input type="text" id="input" class="entrada__input" placeholder=" " />
                     </div>
-                
-
-                   <button aria-label="Botão de enviar" id="botao-enviar">
-                       <img class="icone icone--enviar-mensagem">
-                   </button>
-               </div>
-           </section>
-       </section>
-   </main>
+                    <button id="botao-enviar" type="button">
+                        Enviar
+                        <img class="icone icone--enviar-mensagem">
+                    </button>
+                    
+                </div>
+            </section>
+        </section>
+    </main>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="{{ url_for('static', filename='index.js') }}"></script>
